@@ -8,11 +8,6 @@ html {
   height: 100%
 }
 
-.boxes-container {
-  background: #e4d8dd;
-  height: 100%
-}
-
 .nav-bar {
   background: #d6dde3;
   font-size: 16px;
@@ -38,12 +33,11 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* align-items: center; */
 }
 
 .recipient-box {
   background-color: #cfc0c5;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   width: 320px;
   height: 370px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.495);
@@ -59,18 +53,18 @@ h6 {
   margin-left: 12px;
 }
 
-h1 {
+#recipient-name {
   font-size: 24px;
 }
-h2, h4 {
+#date, #name-playlist {
   font-size: 10px;
 }
 
-h3, h5 {
+#playlist, #attachments {
   font-size: 14px;
 }
 
-h6 {
+#attachments-number {
   font-size: 32px;
 }
 
@@ -88,12 +82,10 @@ h6 {
   width: 320px;
 }
 
-.admin {
+.admin-dropdown {
   display: flex;
   justify-content: flex-end;
 }
-
-
 
 #navigation {
   color: #b8999f;
