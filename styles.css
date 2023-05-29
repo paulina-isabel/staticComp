@@ -64,6 +64,14 @@ html {
   margin: 8px;
 }
 
+#views {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  padding-right: 6px;
+}
+
 .recipient-box {
   background-color: #cfc0c5;
   margin-bottom: 20px;
