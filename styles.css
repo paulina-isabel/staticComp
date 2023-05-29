@@ -10,17 +10,33 @@ html {
 
 .nav-bar {
   background: #d6dde3;
-  font-size: 20px;
-  height: ;
+  font-size: 16px;
+  /* height: 15vh; */
+  /* padding-top: 40px; */
+  padding-bottom: 20px;
+}
+
+.shares {
+  font-size: 30px;
 }
 
 .nav-icons {
-  height: 14px;
-  width: 14px;
+  height: 10px;
+  width: 10px;
   /* padding: 8px; */
+}
+
+.office-people {
+  height: 100px;
+  width: 160px;
 }
 
 .admin {
   display: flex;
   justify-content: flex-end;
+}
+
+#navigation {
+  .link { color: #FF0000; } /* CSS link color (red) */
+  .link:hover { color: #00FF00; } /* CSS link hover (green) */
 }
