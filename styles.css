@@ -1,0 +1,26 @@
+* {
+  /* border: solid black 1px; */
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: linear-gradient(#f0eaee, #e4d8dd);
+  height: 100%
+}
+
+.nav-bar {
+  background: #d6dde3;
+  font-size: 20px;
+  height: ;
+}
+
+.nav-icons {
+  height: 14px;
+  width: 14px;
+  /* padding: 8px; */
+}
+
+.admin {
+  display: flex;
+  justify-content: flex-end;
+}
