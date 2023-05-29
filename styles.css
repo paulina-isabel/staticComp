@@ -8,11 +8,14 @@ html {
   height: 100%
 }
 
+.boxes-container {
+  background: #e4d8dd;
+  height: 100%
+}
+
 .nav-bar {
   background: #d6dde3;
   font-size: 16px;
-  /* height: 15vh; */
-  /* padding-top: 40px; */
   padding-bottom: 20px;
 }
 
@@ -23,7 +26,6 @@ html {
 .nav-icons {
   height: 10px;
   width: 10px;
-  /* padding: 8px; */
 }
 
 .main-header {
@@ -35,6 +37,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* align-items: center; */
 }
 
 .recipient-box {
