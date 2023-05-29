@@ -31,13 +31,18 @@ html {
   font-size: 30px;
 }
 
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .recipient-box {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   background-color: #cfc0c5;
   margin-bottom: 0px;
-  width: 380px;
-  height: 380px;
+  width: 320px;
+  height: 360px;
+  /* margin-left: 20px; */
 }
 
 .boxes-container {
@@ -72,11 +77,12 @@ h6 {
 .recipient-link {
   background-color: #b8999f;
   font-size: 8px;
+  width: 290px;
 }
 
 .office-people {
-  height: 225px;
-  width: 360px;
+  height: 200px;
+  width: 320px;
 }
 
 .admin {
