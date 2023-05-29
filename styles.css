@@ -1,22 +1,33 @@
 * {
-  /* border: solid black 1px; */
   font-family: 'Roboto', sans-serif;
 }
 
 html {
   background: linear-gradient(#f0eaee, #e4d8dd);
-  height: 100%
 }
 
 .nav-bar {
   background: #d6dde3;
   font-size: 16px;
-
   padding-bottom: 20px;
 }
 
 .navigation {
   padding-left: 10px;
+}
+
+#navigation {
+  color: #b8999f;
+  text-decoration: none;
+}
+
+#navigation:hover {
+  color: #cfc0c5;
+}
+
+.admin-dropdown {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .shares {
@@ -38,6 +49,19 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.image-container {
+  position: relative;
+}
+
+.share-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  margin: 8px;
 }
 
 .recipient-box {
@@ -87,18 +111,4 @@ h6 {
 .office-people {
   height: 200px;
   width: 320px;
-}
-
-.admin-dropdown {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#navigation {
-  color: #b8999f;
-  text-decoration: none;
-}
-
-#navigation:hover {
-  color: #cfc0c5;
 }
