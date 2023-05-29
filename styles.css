@@ -26,9 +26,57 @@ html {
   /* padding: 8px; */
 }
 
+.main-header {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.recipient-box {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #cfc0c5;
+  margin-bottom: 0px;
+  width: 380px;
+  height: 380px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0em;
+}
+
+h1 {
+  font-size: 24px;
+}
+h2, h4 {
+  font-size: 18px;
+}
+
+h3, h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+.recipient-link {
+  background-color: #b8999f;
+  font-size: 8px;
+}
+
 .office-people {
-  height: 100px;
-  width: 160px;
+  height: 225px;
+  width: 360px;
 }
 
 .admin {
