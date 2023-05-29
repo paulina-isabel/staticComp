@@ -54,27 +54,29 @@ h6 {
 }
 
 #recipient-name {
-  font-size: 24px;
+  font-size: 22px;
 }
-#date, #name-playlist {
+#name-playlist {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+#date, #playlist, #attachments {
   font-size: 10px;
 }
 
-#playlist, #attachments {
-  font-size: 14px;
-}
-
 #attachments-number {
-  font-size: 32px;
+  font-size: 28px;
+  padding-left: 4px;
 }
 
 .recipient-link {
   margin: 0 auto;
   background-color: #b8999f;
-  font-size: 8px;
+  font-size: 10px;
   width: 290px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .office-people {
