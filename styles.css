@@ -1,22 +1,33 @@
 * {
-  /* border: solid black 1px; */
   font-family: 'Roboto', sans-serif;
 }
 
 html {
   background: linear-gradient(#f0eaee, #e4d8dd);
-  height: 100%
-}
-
-.boxes-container {
-  background: #e4d8dd;
-  height: 100%
 }
 
 .nav-bar {
   background: #d6dde3;
   font-size: 16px;
   padding-bottom: 20px;
+}
+
+.navigation {
+  padding-left: 10px;
+}
+
+#navigation {
+  color: #b8999f;
+  text-decoration: none;
+}
+
+#navigation:hover {
+  color: #cfc0c5;
+}
+
+.admin-dropdown {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .shares {
@@ -26,6 +37,7 @@ html {
 .nav-icons {
   height: 10px;
   width: 10px;
+  padding-left: 6px;
 }
 
 .main-header {
@@ -37,20 +49,35 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* align-items: center; */
+}
+
+.image-container {
+  position: relative;
+}
+
+.share-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+#views {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  padding-right: 6px;
 }
 
 .recipient-box {
   background-color: #cfc0c5;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   width: 320px;
   height: 370px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.495);
-}
-
-.boxes-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 h1,
@@ -63,41 +90,33 @@ h6 {
   margin-left: 12px;
 }
 
-h1 {
-  font-size: 24px;
+#recipient-name {
+  font-size: 22px;
 }
-h2, h4 {
+#name-playlist {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+#date, #playlist, #attachments {
   font-size: 10px;
 }
 
-h3, h5 {
-  font-size: 14px;
-}
-
-h6 {
-  font-size: 32px;
+#attachments-number {
+  font-size: 28px;
+  padding-left: 4px;
 }
 
 .recipient-link {
   margin: 0 auto;
   background-color: #b8999f;
-  font-size: 8px;
+  font-size: 10px;
   width: 290px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .office-people {
   height: 200px;
   width: 320px;
-}
-
-.admin {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#navigation {
-  .link { color: #FF0000; } /* CSS link color (red) */
-  .link:hover { color: #00FF00; } /* CSS link hover (green) */
 }
