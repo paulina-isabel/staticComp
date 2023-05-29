@@ -16,6 +16,7 @@ html {
 .nav-bar {
   background: #d6dde3;
   font-size: 16px;
+
   padding-bottom: 20px;
 }
 
@@ -46,11 +47,6 @@ html {
   width: 320px;
   height: 370px;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.495);
-}
-
-.boxes-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 h1,
@@ -97,7 +93,13 @@ h6 {
   justify-content: flex-end;
 }
 
+
+
 #navigation {
-  .link { color: #FF0000; } /* CSS link color (red) */
-  .link:hover { color: #00FF00; } /* CSS link hover (green) */
+  color: #b8999f;
+  text-decoration: none;
+}
+
+#navigation:hover {
+  color: #cfc0c5;
 }
